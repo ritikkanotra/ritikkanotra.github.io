@@ -1096,17 +1096,17 @@ header .row {
 header .top-bar {
 	display: block;
 	background: #000000;
-	min-width: 220px;
-	min-height: 66px;
+	min-width: 170px;
+	min-height: 43px;
 	position: absolute;
 	left: 90px;
 	top: 0;
 }
 header .logo {
 	float: left;
-	margin-left: 20px;
-	margin-right: 50px;
-	margin-top: 25px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 15px;
 	position: relative;
 }
 header .logo a {
@@ -1119,7 +1119,7 @@ header .logo a {
 	color: transparent;
 	width: 92px;
 	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
+	background: url("../images/logo.jpg") no-repeat center;
 	background-size: 92px 15px;
 }
 
@@ -1130,8 +1130,8 @@ header .logo a {
 .menu-toggle {
 	float: left;
 	width: 40px;
-	height: 40px;
-	margin-left: 20px;
+	height: 20px;
+	margin-left: 10px;
 	margin-top: 13px;
 	display: block;
 	position: relative;
