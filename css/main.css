@@ -1909,9 +1909,9 @@ header .logo a {
 }
 .popup-modal .description-box h4 {
 	font-family: "poppins-bold", sans-serif;
-	font-size: 1.5rem;
+	font-size: 2.5rem;
 	line-height: 2.4rem;
-	margin-bottom: .6rem;
+	margin-bottom: 1rem;
 }
 .popup-modal .description-box p {
 	font-family: "poppins-regular", sans-serif;
