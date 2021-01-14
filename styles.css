@@ -393,7 +393,7 @@ footer {
   display: grid;
   padding: 2rem 8rem;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  grid-gap: 1rem;
+  grid-gap: 4rem 1rem;
 }
 
 .projects {
