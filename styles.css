@@ -441,6 +441,13 @@ footer {
     bottom: 10px;
 }
 
+.resume-download-btn {
+    background-color: rgb(9, 57, 112);
+    margin: 5.5px;
+    padding: 2px;
+    text-align: center;
+}
+
 
 
 @media only screen and (max-width: 600px) {
@@ -558,7 +565,7 @@ footer {
 
 
     .card-container {
-        margin-left: 0px
+        margin-left: 0px;
         display: grid;
         padding: 2rem 1rem;
         grid-template-columns: repeat(auto-fit, minmax(98%, 1fr));
@@ -597,6 +604,10 @@ footer {
 
     .projects h3 {
         font-size: 1.2rem;
+    }
+
+    .resume-download-btn {
+        display: none;
     }
 
     
