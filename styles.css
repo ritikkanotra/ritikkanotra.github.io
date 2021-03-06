@@ -408,7 +408,7 @@ footer {
 .card-container {
   display: grid;
   padding: 2rem 8rem;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-gap: 4rem 1rem;
 }
 
@@ -420,15 +420,15 @@ footer {
 
 .project-entity {
     position: relative;
-    min-width: 400px;
-    max-width: 400px;
+    min-width: 350px;
+    max-width: 350px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding-bottom: 20px;
 }
 
 .project-entity img {
-    width: 400px;
-    height: 200px;
+    width: 350px;
+    height: 160px;
 }
 
 .project-entity .content {
