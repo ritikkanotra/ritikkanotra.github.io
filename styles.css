@@ -155,8 +155,10 @@ body {
 }
 
 .heading {
-    font-weight: bolder;
+    /* font-weight: bolder; */
     text-align: center;
+		font-size: 60px;
+		opacity: 0.8;
     margin-bottom: 30px;
 }
 
@@ -266,7 +268,8 @@ body {
 .category h2 {
     color: #24104d;
     /* font-family: 'Chelsea Market', cursive; */
-    font-family: 'Varela Round', sans-serif;
+    /* font-family: 'Varela Round', sans-serif; */
+		font-family: 'Montserrat', sans-serif;
 }
 
 .contact {
