@@ -366,6 +366,10 @@ footer {
     width: auto;
 } */
 
+.br-mobile{
+    display: none;
+}
+
 .social-media img {
     padding: 2px;
     border-width: 0px;
@@ -615,6 +619,10 @@ footer {
 
     .resume-download-btn {
         display: none;
+    }
+
+    .br-mobile{
+        display: block;
     }
 
 
