@@ -482,7 +482,8 @@ footer {
 .comp-detail-col-big {
     font-size: 19px;
     padding: 40px;
-    font-family: 'Inter', sans-serif;
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Varela Round', sans-serif;
 }
 
 .comp-detail-col-small {
