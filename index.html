@@ -13,7 +13,11 @@
     <link rel="stylesheet" href="https://ritikkanotra-extra.netlify.app/raw/ritikkanotra-portfolio/styles.css">
     <!-- <link rel="stylesheet" href="file:///D:/DATA/version-control/ritikkanotra-extra/raw/ritikkanotra-portfolio/styles.css"> -->
     
-    <link type="text/css" rel="stylesheet" href="magicscroll/magicscroll.css"/>
+    <!-- <link type="text/css" rel="stylesheet" href="magicscroll/magicscroll.css"/> -->
+
+    <!-- CSS - Flickity -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap" rel="stylesheet">
     <!-- <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet"> -->
@@ -316,7 +320,7 @@
     <div class="achievements category" id="achievements">
       <h2 class="heading" style="margin-bottom: 60px">Achievements & Certificates</h2>
       <!-- <img src="assets/certificates/0001 (1).jpg" alt=""> -->
-      <div class="MagicScroll">
+      <!-- <div class="MagicScroll">
         <img src="assets/certificates/CS50x.jpg" />
         <img src="assets/certificates/Kickstart_19_D.jpg" />
         <img src="assets/certificates/coursera-gcp.jpg" />
@@ -328,7 +332,18 @@
         <img src="assets/certificates/DSC_Code_the_Covid.jpg" alt="">
         <img src="assets/certificates/GFG_Placement_Preparation_Participation_certificate.jpg" alt="">
         <img src="assets/certificates/IIT-Kharagpur EAD-18.jpg" alt="">
+      </div> -->
+
+      <div class="carousel"
+        data-flickity='{ "wrapAround": true }'>
+        <div class="carousel-cell"><img src="assets/certificates/CS50x.jpg" /></div>
+        <div class="carousel-cell"><img src="assets/certificates/Kickstart_19_D.jpg" /></div>
+        <div class="carousel-cell"><img src="assets/certificates/coursera-gcp.jpg" /></div>
+        <div class="carousel-cell"><img src="assets/certificates/30-days-of-gcp.jpg" /></div>
+        <div class="carousel-cell"><img src="assets/certificates/certificate_of_event_code_kaze.jpg" alt=""></div>
       </div>
+
+
     </div>
     <div class="projects category" id="projects">
 
@@ -661,7 +676,11 @@
     </footer>
     <!-- --------------------------------------------------------------------------------------------------------------------------------------- -->
     <script type="text/javascript" src="scripts/script.js"></script>
-    <script type="text/javascript" src="magicscroll/magicscroll.js"></script>
+    <!-- <script type="text/javascript" src="magicscroll/magicscroll.js"></script> -->
+
+    <!-- JavaScript - Flickity -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
     <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
