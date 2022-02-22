@@ -10,9 +10,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     
     <!-- <link rel="stylesheet" href="styles.css"> -->
-    <link rel="stylesheet" href="https://ritikkanotra-extra.netlify.app/raw/ritikkanotra-portfolio/styles.css">
-    <!-- <link rel="stylesheet" href="file:///D:/DATA/version-control/ritikkanotra-extra/raw/ritikkanotra-portfolio/styles.css"> -->
+    <!-- <link id="theme-link" rel="stylesheet" href="https://ritikkanotra-extra.netlify.app/raw/ritikkanotra-portfolio/styles.css"> -->
+    <link rel="stylesheet" href="file:///D:/DATA/version-control/ritikkanotra-extra/raw/ritikkanotra-portfolio/styles.css">
+    <link id="dark-theme-link" rel="stylesheet" href="https://ritikkanotra-extra.netlify.app/raw/ritikkanotra-portfolio/styles_dark.css" disabled>
+    <!-- <link id="dark-theme-link" rel="stylesheet" href="file:///D:/DATA/version-control/ritikkanotra-extra/raw/ritikkanotra-portfolio/styles_dark.css" disabled> -->
     
+    <!-- Dark mode toggle css -->
+    <link rel="stylesheet" href="dm-toggle/toggle.css">
+
+
     <link type="text/css" rel="stylesheet" href="magicscroll/magicscroll.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap" rel="stylesheet">
@@ -59,6 +65,60 @@
           <a class="nav-item nav-link js-scroll-trigger" href="#contact">Contact</a>
           <!-- <a class="nav-item nav-link js-scroll-trigger my-card skill-card resume-download-btn" href="https://urlf.in/ritikkanotra_resume" target="_blank">Resume</a> -->
           <!-- <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+        
+          <div id="dm-toggle" class="dm-toggle">
+            <input type="checkbox" class="checkbox" id="chk" />
+            <label class="label" for="chk">
+              <i class="fas fa-moon"></i>
+		          <i class="fas fa-sun"></i>
+              <div class="ball"></div>
+            </label>
+          </div>
+          
+          <!-- SOCIAL PANEL HTML -->
+          <!-- <div class="social-panel-container">
+            <div class="social-panel">
+              <p>Created with <i class="fa fa-heart"></i> by
+                <a target="_blank" href="https://florin-pop.com">Florin Pop</a></p>
+              <button class="close-btn"><i class="fas fa-times"></i></button>
+              <h4>Get in touch on</h4>
+              <ul>
+                <li>
+                  <a href="https://www.patreon.com/florinpop17" target="_blank">
+                    <i class="fab fa-discord"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/florinpop1705" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://linkedin.com/in/florinpop17" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://facebook.com/florinpop17" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://instagram.com/florinpop17" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <button class="floating-btn">
+            Get in Touch
+          </button>
+          
+          <div class="floating-text">
+            Part of <a href="https://florin-pop.com/blog/2019/09/100-days-100-projects" target="_blank">#100Days100Projects</a>
+          </div> -->
+        
         </div>
       </div>
     </nav>
@@ -677,6 +737,11 @@
     }
     });
     </script>  -->
+    
+    <!-- Font Awesome Kit script -->
+    <script src="https://kit.fontawesome.com/1a19892211.js" crossorigin="anonymous"></script>
+
+    <script src="dm-toggle/toggle.js"></script>
 
     <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
