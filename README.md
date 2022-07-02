@@ -1,4 +1,4 @@
 # ritikkanotra.github.io
 Repository to host my website
 
-[Visit](https://ritikkanotra.me)
+[Visit](https://ritikkanotra.com)
